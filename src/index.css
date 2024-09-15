@@ -1,0 +1,40 @@
+body{
+  background-image: url(batman-arkham-3840x2160-18364.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container{
+  font-size: 5rem;
+  backdrop-filter: blur(3px) saturate(143%);
+  -webkit-backdrop-filter: blur(6px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0);
+
+  width: 70vh;
+  height: 70vh;
+  border: none;
+  border-radius: 100%;
+  transition: 1s ease;
+}
+.container:hover{
+  backdrop-filter: blur(18px) saturate(135%);
+}
+
+span{
+  color: rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  align-items: center;
+  cursor: default;
+  text-shadow: 3px 2px 3px rgb(103, 53, 26);
+}
+
